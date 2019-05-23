@@ -1,7 +1,7 @@
 #!/bin/bash
 
 user="rmenezes"
-pass="L000gout"
+pass="<senha>"
 database="/mnt/c/Users/rmenezes/bin/database.csv"
 cert="/mnt/c/Users/rmenezes/key"
 log="/tmp/log.out"
