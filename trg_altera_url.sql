@@ -23,17 +23,17 @@ where
     or new.triggerid = t.templateid);
     
     if (old.priority <> new.priority) then
-		if P = 1 then
-			set NEW.url = '{$URL_INFORMATION}';
-            elseif P = 2 then
-			set NEW.url = '{$URL_WARNING}';
-			elseif P = 3 then
-			set NEW.url = '{$URL_AVERAGE}';
-			elseif P = 4 then
-			set NEW.url = '{$URL_HIGH}';
-			elseif P = 5 then
-			set NEW.url = '{$URL_DISASTER}';
-		end if;
+	if P = 1 then
+		set NEW.url = '{$URL_INFORMATION}';
+        elseif P = 2 then
+		set NEW.url = '{$URL_WARNING}';
+	elseif P = 3 then
+		set NEW.url = '{$URL_AVERAGE}';
+	elseif P = 4 then
+		set NEW.url = '{$URL_HIGH}';
+	elseif P = 5 then
+		set NEW.url = '{$URL_DISASTER}';
+	end if;
     end if;
 
 END
