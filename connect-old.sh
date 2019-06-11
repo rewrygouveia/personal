@@ -10,7 +10,7 @@ yellow="\033[0;33m"
 end="\033[0m"
 bold=$(tput bold)
 normal=$(tput sgr0)
-master_password="L00gout"
+master_password="<senha-master>"
 
 pathdb="/home/rewry.menezes/bin/Linux/PuTTy"
 db="$pathdb/database.csv"
